@@ -1,0 +1,31 @@
+{
+  "name": "aae-seed-element",
+  "version": "0.1.0",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "Seed element for AppExpress.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "aercloud",
+    "seed"
+  ],
+  "main": "aae-seed-element.html",
+  "license": "http://aercloud.github.io/LICENSE.txt",
+  "homepage": "https://github.com/aercloudappexpress/aae-seed-element/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "^3.4.0"
+  }
+}

@@ -1,0 +1,75 @@
+<!--
+@license
+Copyright (c) 2015 The AerCloud Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://aercloud.github.io/LICENSE.txt
+The complete set of authors may be found at http://aercloud.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://aercloud.github.io/CONTRIBUTORS.txt
+Code distributed by Aeris as part of the aercloud project is also
+subject to an additional IP rights grant found at http://aercloud.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+An element providing a starting point.
+
+Example:
+
+    <aae-seed-element></aae-seed-element>
+
+Example:
+
+    <aae-seed-element>
+      <h2>Hello aae-seed-element</h2>
+    </aae-seed-element>
+
+@demo demo/index.html
+@hero hero.svg
+-->
+
+<dom-module id="aae-seed-element">
+  <template>
+    <p>aae-seed-element</p>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'aae-seed-element',
+
+      properties: {
+
+      },
+
+      // Element Lifecycle
+
+      ready: function() {
+        // `ready` is called after all elements have been configured, but
+        // propagates bottom-up. This element's children are ready, but parents
+        // are not.
+        //
+        // This is the point where you should make modifications to the DOM (when
+        // necessary), or kick off any processes the element wants to perform.
+      },
+
+      attached: function() {
+        // `attached` fires once the element and its parents have been inserted
+        // into a document.
+        //
+        // This is a good place to perform any work related to your element's
+        // visual state or active behavior (measuring sizes, beginning animations,
+        // loading resources, etc).
+      },
+
+      detached: function() {
+        // The analog to `attached`, `detached` fires when the element has been
+        // removed from a document.
+        //
+        // Use this to clean up anything you did in `attached`.
+      },
+
+      // Element Behavior
+
+
+    });
+  </script>
+</dom-module>
